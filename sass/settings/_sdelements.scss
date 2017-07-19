@@ -1,0 +1,56 @@
+$body-bg: #fefdfd; // rgba(139,88,52,0.01);
+$body-font-color: rgba(0,0,0,0.8);
+$body-font-family: "Roboto", sans-serif;
+
+@import "defaults";
+
+$primary-color: #005580;
+// $code-color is 15% darker than $alert-color, so we lighten here by 15%
+$alert-color: lighten(rgb(51,29,0), 15%);
+$global-radius: 6px;
+$panel-bg: #333;
+
+$header-font-family: "Roboto Medium", sans-serif;
+$header-font-weight: 200;
+$header-font-color: rgb(60, 82, 90);
+$header-line-height: 1.25;
+$header-top-margin: 0.8em;
+$subheader-font-color: rgba(0, 0, 0, .87);
+$subheader-line-height: $header-line-height;
+
+$title-font-color: rgba(0, 0, 0, .87);
+$title-font-weight: $header-font-weight;
+$hr-border-color: rgba(145,135,84,0.15);
+$sect-divider-size: 0px;
+
+$paragraph-line-height: 1.6;
+
+$code-font-size: emCalc(17px);
+$code-line-height: 1.25;
+$code-font-weight: 400;
+
+$blockquote-font-color: #999;
+$blockquote-cite-font-color: #666;
+
+$pre-border-size: 1px;
+$pre-border-color: rgba(16,195,196,0.125);
+$pre-bg: rgba(16,195,196,.05);
+$pre-padding: 1em;
+$pre-line-height: 1.4;
+
+$anchor-text-decoration: underline;
+$anchor-font-color-hover: #078d71;
+
+$list-side-margin: emCalc(24px);
+$definition-list-header-margin-bottom: emCalc(5px);
+$definition-list-margin-bottom: emCalc(20px);
+
+$table-head-font-color: $header-font-color;
+$table-head-font-size: inherit;
+$table-row-font-size: inherit;
+$table-line-height: 1.5;
+$table-even-row-bg: rgba(119,84,22,0.025);
+$table-border-color: $hr-border-color;
+
+$footer-bg: rgb(11,68,90);
+$footer-font-color: $body-bg;
