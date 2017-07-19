@@ -1,4 +1,4 @@
-$body-bg: #fefdfd; // rgba(139,88,52,0.01);
+$body-bg: #fff;
 $body-font-color: rgba(0,0,0,0.8);
 $body-font-family: "Roboto", sans-serif;
 
@@ -52,5 +52,5 @@ $table-line-height: 1.5;
 $table-even-row-bg: rgba(119,84,22,0.025);
 $table-border-color: $hr-border-color;
 
-$footer-bg: rgb(11,68,90);
-$footer-font-color: $body-bg;
+$footer-bg: #f2f2f2;
+$footer-font-color: $body-font-color;
